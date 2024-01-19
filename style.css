@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza: #C0C0C0;
+    --azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal:'Inter';
+}
+body{
+    background-color:var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.inicio{
+    background-image: url(assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+
+}
+.container{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+}
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+    
+
+
+}
+
+.container__botao{
+    background-color: var(--azul);
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    
+    
+}
+.botao__secundario{
+    background-color:transparent;
+    border: 2px solid var(--cinza);
+    
+    
+}
+.aviso{
+    color: var(--cinza);
+    font-size: 12px;
+     
+    
+}
+.container__imagem{
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+.container__caixa{
+    margin: 0 96px;
+    
+}
+.secundario{
+    align-items: center;
+    margin: 0 160px;
+    
+
+}
+.foto__secundaria{
+    width:80%;
+
+}
+.descricao__titulo{
+font-weight: 700;
+font-size: 48px;
+line-height: 57px;
+margin-bottom: 3px;
+}
+.descricao__titulo__info{
+color: var(--cinza);
+
+
+}
+.descricao__tericeiro_bloco{
+    margin-top: 20px;
+}
+.container__descricao{
+    display: flex;
+    flex-direction:column ;
+}
+.botao__terceiro_bloco{
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+    background-color: var(--azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 78%;
+
+    
+
+}
+.foto__terceiro_bloco{
+    margin-left: 100px;
+    width: 90%;
+
+}
+
+.descricao__aparelhos{
+    text-align: center;
+
+}
+.lista__aparelhos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type:none;
+   
+
+
+}
+.titulo__quinto_bloco{
+    display:grid 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    margin-bottom: 48px;
+}
+.lista__item{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38.4px;
+
+}
+.rodape{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.rodape__descricao{
+    margin-bottom: 16px;
+    color: var(--cinza);
+    size: 14px;
+    line-height: 21px;
+    
+}
+
+.lista__rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 16px;
+    list-style-type: none;
+    
+    
+}
+.lista__link a{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--branco-principal);
+       
+}
+.lista__link a:hover{
+    color: var(--azul);
+
+}
+.lista__link a:active{
+    color: green;
+}
